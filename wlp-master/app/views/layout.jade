@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+  title= title
+  link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+  block content
+  block footer
+    div.footer
+      h5.
+        Developer Navigation
+      ul
+        li
+          a(href="/")= "Home page"
+        li
+          a(href="/employeelist")= "Employee List"
+        li
+          a(href="/newemployee")= "Add New Employee"

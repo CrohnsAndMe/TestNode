@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+/************************* GET: /employeelist ***********************/
+.employeelist ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+/************************* /GET: /employeelist ***********************/
+
+/***************************** FOOTER *******************************/
+
+.footer ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li{
+	float: left;
+}
+
+.footer a{
+	display: block;
+	width: 180px;
+}
+/***************************** /FOOTER ******************************/
